@@ -5,12 +5,12 @@
 
 ### Usages
 
-Copy and paste class and xml files and use this attributes in your layout xml file:
+**Copy Button.kt and paste your package and copy xml files and paste your xml files inside and use this attributes in your layout xml file:**
 ```
 -Add this line in your base layout attribute xmlns:appAttr="http://schemas.android.com/apk/res-auto"
 -Defining button <yourpackagename.Button.../>
 ```
-Attributes
+**Attributes**
 ```
 ButtonType = appAttr:buttonType = "Muittin" ( you must use button type for now. use Muittin )
 Shape = appAttr:shape = "Rectangle" or "Oval" or "Ring" ( Default rectangle )
@@ -20,7 +20,7 @@ Stroke color = appAttr:strokeColor = "#FFFFFF"
 Stroke width = appAttr:strokeWidth = "SomeIntegerValue"
 Also you can use default button attributes
 ```
-Let's make an example together
+**Let's make an example together**
 ```
     <yourpackagename.Button
             android:layout_width="150dp"
