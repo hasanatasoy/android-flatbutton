@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <declare-styleable name="Button">
+        <attr name="buttonType" format="enum">
+            <enum name="Muittin" value="1"/>
+            <enum name="MaybeLater" value="2"/>
+            <enum name="MaybeLater2" value="3"/>
+        </attr>
+        <attr name="strokeColor" format="string"/>
+        <attr name="strokeWidth" format="integer"/>
+        <attr name="cornerRadius" format="integer"/>
+        <attr name="backgroundColor" format="string"/>
+        <attr name="shape" format="enum">
+            <enum name="Rectangle" value="1"/>
+            <enum name="Oval" value="2"/>
+            <enum name="Ring" value="3"/>
+        </attr>
+    </declare-styleable>
+
+</resources>
