@@ -7,7 +7,7 @@
 
 **Copy Button.kt and paste your package, copy xml files and paste your xml files inside and use this attributes in your layout xml file:**
 ```
--Add this line in your base layout attribute xmlns:appAttr="http://schemas.android.com/apk/res-auto"
+-Add this line in your base layout as a attribute xmlns:appAttr="http://schemas.android.com/apk/res-auto"
 -Defining button <yourpackagename.Button.../>
 ```
 **Attributes**
